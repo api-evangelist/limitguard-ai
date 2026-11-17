@@ -1,4 +1,4 @@
-# limitguard-ai
+# Limitguard
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-limitguard-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://limitguard.ai/
+Limitguard provides a lead validation platform that checks Dutch and Belgian company records against official registers such as the KVK and KBO. Users can verify leads before contacting, calling, or paying, receiving a verdict with source information. The service offers a free tier with up to five lead checks and paid plans for larger volumes. It integrates with APIs for self‑verification and methodology details, and includes a dashboard for managing sign‑ins and sign‑ups. Limitguard aims to reduce fraud and improve sales efficiency for businesses operating in the Benelux region.
+
+**Areas:** LeadValidation · DataVerification · SaaS · API · Europe
+
+## Limitguard on APIs.io
+
+Everything profiled for Limitguard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/limitguard-ai/](https://apis.io/providers/limitguard-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Limitguard Entity API](https://apis.io/apis/limitguard-ai/limitguard-ai-entity-api/) — The Entity API from Limitguard — 1 operation(s) for entity.
+- [Limitguard Risk API](https://apis.io/apis/limitguard-ai/limitguard-ai-risk-api/) — The Risk API from Limitguard — 1 operation(s) for risk.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Limitguard Ai Webhooks](https://apis.io/asyncapis/limitguard-ai/limitguard-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Limitguard Agentic Access](https://apis.io/agentic-access/limitguard-ai/limitguard-ai-agentic-access/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Limitguard Openapi Overlay](https://apis.io/overlays/limitguard-ai/limitguard-ai-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Limitguard API Rules](https://apis.io/rules/limitguard-ai/limitguard-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Limitguard Authentication](https://apis.io/security/limitguard-ai/limitguard-ai-authentication/)
+- [Limitguard Domain Security](https://apis.io/security/limitguard-ai/limitguard-ai-domain-security/)
+- [Limitguard Vulnerability Disclosure](https://apis.io/security/limitguard-ai/limitguard-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Limitguard Plans Pricing](https://apis.io/plans/limitguard-ai/limitguard-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Limitguard Rate Limits](https://apis.io/rate-limits/limitguard-ai/limitguard-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://limitguard.ai/)
+- [Documentation](https://docs.limitguard.ai/)
+- [Getting started](https://docs.limitguard.ai/quickstart)
+- [API reference](https://api.limitguard.ai/)
+- [Pricing](https://limitguard.ai/pricing/)
+- [Sign up](https://dashboard.limitguard.ai/sign-up?utm_source=landing&utm_medium=web&utm_campaign=signup&utm_content=header_cta)
+- [Changelog](https://docs.limitguard.ai/changelog/2026-10-12)
+- [Security](https://limitguard.ai/security/)
+- [Terms of service](https://limitguard.ai/terms/)
+- [Privacy policy](https://limitguard.ai/privacy/)
+- [Status](https://status.limitguard.ai)
+
+## API Evangelist rating
+
+**Kin Score 64.1** — strong · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 55.8 |
+| Contract governance | 65.5 |
+| Operational transparency | 71.0 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 59.1 |
+
+**Agent readiness 43.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/limitguard-ai/](https://apis.io/providers/limitguard-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Limitguard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/limitguard-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
